@@ -1,0 +1,13 @@
+.header-component {
+  background: #4267b2;
+  height: 55px;
+}
+
+.header-component h5 {
+  margin: 0px;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px 20px;
+  width: 90px;
+  float: left;
+}

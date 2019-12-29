@@ -1,0 +1,67 @@
+.post-component {
+  margin-bottom: 20px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+.post-component hr {
+  background-color: #f3f3f3;
+  margin: 10px 0px;
+}
+
+.post-component .header-post {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.post-component .header-post .profile {
+  margin: 5px 15px;
+}
+
+.post-component .header-post .profile .dt-post {
+  color: #e9e9e9;
+}
+
+.post-component .header-post .profile .name-profile {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.post-component .header-post .avatar img {
+  width: 50px;
+  height: 50px;
+  background-color: #e9e9e9;
+  border-radius: 30px;
+}
+
+.post-component .post-comment-component {
+  display: flex;
+  padding: 0px 20px;
+  margin-bottom: 10px;
+}
+
+.post-component .post-comment-component .post-comment-header .avatar img {
+  width: 35px;
+  height: 35px;
+  background-color: #666;
+  border-radius: 30px;
+}
+
+.post-component .post-comment-component .post-comment-content {
+  display: flex;
+  padding: 7px 15px;
+  width: 100%;
+  background: #e9e9e9;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.post-component .post-comment-component .post-comment-content .profile {
+  font-weight: bold;
+}
+
+.post-component .post-comment-component .post-comment-content .content {
+  margin-left: 5px;
+}

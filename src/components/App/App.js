@@ -1,8 +1,16 @@
 import React from "react";
 import "./App.css";
 
+import Header from "./Header/Header";
+import PostList from "./PostList/PostList";
+
 function App() {
-  return <p>Olá Mundo</p>;
+  return (
+    <>
+      <Header />
+      <PostList />
+    </>
+  );
 }
 
 export default App;
